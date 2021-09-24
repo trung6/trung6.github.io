@@ -1,0 +1,6 @@
+@InProceedings{Nguyen2021PointSetDistances,
+  title={Point-set Distances for Learning Representations of 3D Point Clouds},
+  author={Nguyen, Trung and Pham, Quang-Hieu and Le, Tam and Pham, Tung and Ho, Nhat and Hua, Binh-Son},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+  year={2021}
+}
