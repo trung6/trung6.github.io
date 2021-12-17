@@ -251,7 +251,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<p class="text-right">Last update: Nov 08, 2021</p>
+				<p class="text-right" id="last_update"></p>
 			</div>
 		</div>
 	</div>
@@ -274,6 +274,15 @@
     })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
       ga('create', 'UA-70112180-1', 'auto');
       ga('send', 'pageview');
+    </script>
+
+    <!--Last Update-->
+    <script>
+        n =  new Date();
+        y = n.getFullYear();
+        m = n.getMonth() + 1;
+        d = n.getDate();
+        document.getElementById("last_update").innerHTML = "Last update: " + y + "-" + m + "-" + d;
     </script>
 </body>
 
