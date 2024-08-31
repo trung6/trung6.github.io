@@ -1,86 +1,66 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
     <title>Trung Nguyen</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
-
+    <meta charset="UTF-8">
+    <meta name="description" content="About me">
+    <meta name="author" content="Trung Nguyen">
     <style>
-    p {
-        font-size: 16px;
-        margin: 4px;
-    }
-    ul.research {
-        list-style:none;
-        padding-left:0;
-        padding-top:20px;
-    }
-    ul.research li {
-        padding-bottom: 20px;
-    }
-    div.thumb {
-        float:left;
-        padding-right:20px;
-        width: 144px;
-    }
-    div.thumb > img {
-        width: 100%;
-    }
-    div.details{
-        float:left;
-    }
-    div.clear{
-        clear:left;
-    }
-    p.title {
-        font-size: 16px;
-        color: #536872;
-        font-weight: bold;
-    }
-    p.author {
-        font-size: 14px;
-        color: #505050;
-    }
-    span.me {
-        font-size: 14px;
-        text-decoration: underline;
-    }
-    p.venue {
-        font-size: 14px;
-        color: #505050;
-    }
-    p.material {
-        font-size: 14px;
-        color: #505050;
-    }
-    a:visited {
-    color: #937393;
-    }
-    a:focus, a:hover {
-    color: #c700f2;
-    background-color: #fff;
-    }
-    a:active {
-    color: #f0f;
-    background-color: #fff;
-    }
+        body {
+            background-color: white;
+        }
+
+        ul.horizontal-list {
+            /* Remove bullet points */
+            list-style-type: none;
+            /* Remove padding */
+            padding: 0;
+            /* Remove margin */
+            margin: 0;
+            /* Use flexbox to align items horizontally */
+            display: flex;
+            /* Distribute space evenly */
+            justify-content: center;
+        }
+
+        ul.horizontal-list li {
+            /* Allow items to grow and shrink as needed */
+            flex: 1;
+            /* Center text within each item */
+            text-align: center;
+            font-size: inherit;
+        }
     </style>
 </head>
 
-<body data-spy="scroll" data-target=".navbar-fixed-top">
-
+<body>
+    <p>
+        Howdy 👋! Nice to meet you 🤗!
+    </p>
+    <p>
+        My name is Trung Nguyen. I love exploring different corners of
+        science and writing scientific software.
+    </p>
+    <p>
+        I'm currently a PhD student at <a href="https://www.cs.utexas.edu/">UT Austin</a> under supervision of <a
+            href="https://www.mccombs.utexas.edu/faculty-and-research/faculty-directory/yan-leng/">Dr. Yan Leng</a>.
+        My research topic is applications of AI and machine learning in economic research.
+        I also design an <a href="https://en.wikipedia.org/wiki/Active_learning_(machine_learning)">active learning</a>
+        algorithm with <a href="https://www.cs.utexas.edu/~ecprice/">Dr. Eric Price</a> and <a
+            href="https://joeyandbluewhale.github.io/">Joey Zhou</a>.
+    </p>
+    <p>
+        Before this, I was an AI resident at <a href="https://www.vinai.io/">VinAI</a>, where I was exposed to various
+        topics: optimal transport, 3D
+        point cloud learning, hand detection, and self-driving cars.
+        I obtained a bachelor's degree in Applied Math from <a href="https://hust.edu.vn/">HUST</a>.
+    </p>
+    <ul class="horizontal-list">
+        <li><a href="https://www.linkedin.com/in/trung9/">LinkedIn</a></li>
+        <li><a href="https://x.com/trungn1234">X</a></li>
+        <li><a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=S4ELoFMAAAAJ">Google
+                Scholar</a></li>
+    </ul>
 </body>
-
-</html>
