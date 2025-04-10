@@ -7,6 +7,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="About me">
     <meta name="author" content="Trung Nguyen">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         p {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -48,6 +49,15 @@
             /* Center text within each item */
             text-align: center;
             font-size: inherit;
+        }
+
+        /* Media query to vertically stack items on smaller screens */
+        @media (max-width: 600px) {
+            ul.horizontal-list {
+                flex-direction: column;
+                align-items: center;
+                gap: 0.5em;
+            }
         }
     </style>
 </head>
